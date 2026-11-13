@@ -173,7 +173,7 @@
       { href: 'index.html', label: 'Inicio' },
       { href: 'nosotros.html', label: 'Nosotros' },
       { href: 'servicios.html', label: 'Servicios' },
-      { href: 'cotizador.html', label: 'Cotizador' },
+      // { href: 'cotizador.html', label: 'Cotizador' },
       { href: 'contacto.html', label: 'Contacto' }
     ];
 
@@ -191,8 +191,8 @@
     container.innerHTML = `
       <nav class="navbar navbar-expand-lg fixed-top satiba-navbar" aria-label="Navegación principal">
         <div class="container">
-          <a class="navbar-brand satiba-brand" href="index.html">
-            <img src="/assets/logo.webp" alt="Bootstrap" width="30" height="24">
+          <a class="navbar-brand satiba-brand fw-bold fs-4" href="index.html">
+            <img src="./assets/icono.svg" alt="Satiba Solutions" width="30" height="24">Satiba Solutions
           </a>
           <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#satibaNavCollapse" aria-controls="satibaNavCollapse" aria-expanded="false" aria-label="Abrir menú">
             <span class="navbar-toggler-icon"></span>
@@ -221,13 +221,14 @@
     const { SITE_CONFIG } = window.SatibaConfig;
     const year = new Date().getFullYear();
 
+    // ${getLogoHorizontalSvg('footerLogoGrad')}
     container.innerHTML = `
       <footer class="satiba-footer">
         <div class="container">
           <div class="row g-4">
             <div class="col-lg-4">
-              <a href="index.html" class="d-inline-block mb-3">
-                ${getLogoHorizontalSvg('footerLogoGrad')}
+              <a href="index.html" class="d-inline-block mb-3 fw-bold fs-5">
+                Satiba Solutions
               </a>
               <p class="mb-2">
                 Soluciones tecnológicas confiables en desarrollo de software, sitios web, redes y soporte técnico especializado en El Salvador.
