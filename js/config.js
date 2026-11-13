@@ -13,11 +13,11 @@
     // Bandera de envío:
     // - false: formatea la solicitud, la copia al portapapeles y abre Facebook Messenger.
     // - true: envía directamente vía API gratuita Web3Forms usando WEB3FORMS_ACCESS_KEY.
-    EMAIL_ACTIVO: false,
+    EMAIL_ACTIVO: true,
 
     // Configuración Web3Forms (access_key pública, sin credenciales secretas)
     WEB3FORMS_ENDPOINT: 'https://api.web3forms.com/submit',
-    WEB3FORMS_ACCESS_KEY: 'REEMPLAZAR_CON_TU_WEB3FORMS_ACCESS_KEY',
+    WEB3FORMS_ACCESS_KEY: '18127029-6a66-4c89-a56d-425d37bd6548',
 
     // Canales de contacto
     FACEBOOK_URL: 'https://www.facebook.com/profile.php?id=61583036411867',
@@ -43,9 +43,9 @@
   ];
 
   const MEDIOS_CONTACTO = [
-    'Facebook',
     'WhatsApp o Llamada',
-    'Correo electrónico'
+    'Correo electrónico',
+    'Facebook',
   ];
 
   const CATEGORIAS_SERVICIO = {
